@@ -10,9 +10,13 @@
 ```
 gpg --expert --full-generate-key
 Please select what kind of key you want:
-(9) ECC and ECC
+(11) ECC (set your own capabilities)
+
+Current allowed actions: Sign Certify 
+q
+
 Please select which elliptic curve you want:
-(8) secp256k1
+(9) secp256k1
 
 ```
 ### GPG 导入
