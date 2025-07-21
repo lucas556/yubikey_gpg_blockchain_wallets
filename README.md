@@ -9,6 +9,9 @@ gpg > factory-reset
 ### GPG 导入
 ```
 gpg --edit-key <KEYID>
-keytocard
-save
+gpg > keytocard
+gpg > save
+
+# 查询yubikey
+gpg --card-status
 ```
